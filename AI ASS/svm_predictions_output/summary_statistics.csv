@@ -1,0 +1,35 @@
+Category,Value
+Dataset Information,
+Total Patients,303
+Actual Heart Disease Cases,165
+Actual No Disease Cases,138
+,
+Prediction Results (All Data),
+Predicted Heart Disease Cases,249
+Predicted No Disease Cases,54
+Correct Predictions,215
+Incorrect Predictions,88
+,
+Model Performance (Test Set),
+Accuracy,0.8197 (82.0%)
+Precision,0.7619 (76.2%)
+Recall,0.9697 (97.0%)
+F1 Score,0.8533 (85.3%)
+ROC-AUC Score,0.8766
+,
+Confusion Matrix (Test Set),
+True Positives,32
+True Negatives,18
+False Positives,10
+False Negatives,1
+,
+Risk Category Distribution,
+High Risk Patients (≥70%),224 (73.9%)
+Moderate Risk Patients (30-69%),37 (12.2%)
+Low Risk Patients (<30%),41 (13.5%)
+,
+Model Configuration,
+Best Kernel,linear
+Best C Parameter,0.1
+Best Gamma,scale
+Cross-Validation Folds,5

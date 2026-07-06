@@ -1,0 +1,11 @@
+Parameter,Value,Description
+Model Type,Support Vector Machine (SVC),Type of machine learning algorithm used
+Best Kernel,linear,Kernel function used for SVM
+Best C Parameter,0.1,Regularization parameter
+Best Gamma,scale,Kernel coefficient
+Cross-Validation Folds,5,Number of cross-validation folds used
+Scoring Metric,F1 Score,Metric optimized during training
+Test Set Size,61,Number of samples in test set
+Training Set Size,242,Number of samples in training set
+Total Features,13,Number of input features
+Total Patients,303,Total number of patients analyzed

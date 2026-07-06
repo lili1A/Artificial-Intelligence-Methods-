@@ -1,0 +1,14 @@
+Metric,Value,Percentage,Description
+Accuracy,0.819672,81.97%,Overall correctness of predictions
+Precision,0.789474,78.95%,Correct positive predictions among all positive predictions
+Recall (Sensitivity),0.909091,90.91%,Ability to correctly identify actual positives
+Specificity,0.714286,71.43%,Ability to correctly identify actual negatives
+F1 Score,0.845070,84.51%,Harmonic mean of precision and recall
+ROC-AUC Score,0.878788,87.88%,Ability to distinguish between classes
+False Positive Rate,0.285714,28.57%,Proportion of negatives incorrectly classified as positives
+False Negative Rate,0.090909,9.09%,Proportion of positives incorrectly classified as negatives
+Positive Predictive Value,0.789474,78.95%,Proportion of true positives among positive predictions
+Negative Predictive Value,0.869565,86.96%,Proportion of true negatives among negative predictions
+Cross-Validation Score,0.822611,82.26%,Best cross-validation F1 score
+Model Ensemble Size,100,-,Number of boosting stages (trees)
+Learning Rate,0.1,-,Shrinkage rate for each tree contribution

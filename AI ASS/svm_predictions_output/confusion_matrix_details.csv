@@ -1,0 +1,5 @@
+Matrix_Element,Count,Percentage_of_Test_Set,Description
+True Positives (TP),32,52.46%,Correctly predicted heart disease cases
+True Negatives (TN),18,29.51%,Correctly predicted healthy cases
+False Positives (FP),10,16.39%,Healthy cases incorrectly predicted as heart disease
+False Negatives (FN),1,1.64%,Heart disease cases incorrectly predicted as healthy
